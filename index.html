@@ -1,15 +1,140 @@
 <!DOCTYPE html>
-<html lang="es-BO">
+<html lang="pt-br">
 	<head>
 		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Elocua</title>
-		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
-		<header>ELOCUA</header>
-		<main>CONTENT</main>
-		<footer>footer info</footer>
+		<header>
+			<div class="flex-container menu">
+				<div><h1>Elocua</h1></div>
+				<ul class="list-items">
+					<li><a href="#quem-somos">Quienes somos</a></li>
+					<li><a href="#servicos">Servicios</a></li>
+					<li><a href="#planos">Planos</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<div class="flex-container apresentacao">
+			<div class="texto-apresentacao">
+				<h1>Elocua</h1>
+				<p>Online Learning</p>
+				<a href="" class="btn">Más información!</a>
+			</div>
+
+			<div>
+				<div>
+					<img src="./images/0-main.png" alt="banner de apresentação" />
+				</div>
+			</div>
+		</div>
+
+		<div class="flex-container" id="quem-somos">
+			<div>
+				<h2>Quienes somos</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sit
+					perferendis ipsa aliquam maiores vero veritatis officia quasi. Dolor
+					atque fugit laboriosam totam maiores earum corrupti assumenda ab odit
+					distinctio.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
+					beatae accusamus natus unde porro et maiores deleniti aliquam.
+					Sapiente quaerat dolorem fuga? Dicta cum ratione ipsum quam architecto
+					repudiandae accusantium?
+				</p>
+			</div>
+			<div>
+				<img src="./images/1-quem-somos.png" alt="balcão de atendimento" />
+			</div>
+		</div>
+
+		<div class="container-externo">
+			<div class="flex-container" id="servicos">
+				<div>
+					<h2>Servicios</h2>
+				</div>
+
+				<div class="list-servicos">
+					<div class="item-servico">
+						<div><img src="./images/icon-2.png" alt="hospedagens" /></div>
+						<p>Instant Play</p>
+						<a href="#">Gratuito</a>
+					</div>
+
+					<div class="item-servico">
+						<div><img src="./images/icon-1.png" alt="pacote de viagens" /></div>
+						<p>Atención 24h</p>
+						<a href="#">Gratuito</a>
+					</div>
+
+					<div class="item-servico">
+						<div>
+							<img src="./images/icon-3.png" alt="roteiros personalizados" />
+						</div>
+						<p>Mentorias Especializadas</p>
+						<a href="#">Adquierelo</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="flex-container" id="planos">
+			<div><h2>Planes</h2></div>
+			<div class="list-planos">
+				<div class="item-plano">
+					<h3>Gratuito</h3>
+					<ul>
+						<li>Soporte 24h</li>
+						<li>Cursos Limitados</li>
+						<li>Proyectos simples</li>
+					</ul>
+					<a href="#" class="btn">Mas información</a>
+				</div>
+
+				<div class="item-plano">
+					<h3>Intermedio</h3>
+					<br />
+					<ul>
+						<li>Soporte 24h</li>
+						<li>Cursos vitalicios</li>
+						<li>English For Devs</li>
+						<li>Proyectos y Mentorias</li>
+					</ul>
+					<a href="#" class="btn">Mas información</a>
+				</div>
+
+				<div class="item-plano">
+					<h3>Avanzado</h3>
+					<br />
+					<ul>
+						<li>Soporte 24h</li>
+						<li>Cursos vitalicios</li>
+						<li>English For Devs</li>
+						<li>Proyectos y Mentorias</li>
+						<li>Contenido Bonus</li>
+						<li>Área Vip</li>
+					</ul>
+					<a href="#" class="btn">Mas información</a>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="flex-container footer">
+				<p>&copy; 2021 CSS Flexbox</p>
+				<p>Developed by: Israel Hurtado</p>
+			</div>
+		</footer>
 	</body>
 </html>
